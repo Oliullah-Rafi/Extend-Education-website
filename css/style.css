@@ -406,29 +406,28 @@ height: 100%;
 
 
 
-img {
-  float: right;
-}
 
-
-/* @media screen and (max-width: 768px) {
-  img{
-  width: 80%;
-  }
-} */
 
 
 /* image-theme-part-started */
 
 
 
-/* <!-- Summary div part started --> */
+/* <!-- Latest  part started --> */
 
 
+@media screen and (max-width: 768px) {
+  .img{
+  width: 100%;
+  }
+}
 
 
 @media (min-width: 950px) {
 
+  .img{
+    width: 100%;
+    }
 
   .row1-container {
       display: flex;
