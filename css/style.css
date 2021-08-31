@@ -504,11 +504,13 @@ h2 {
   padding: 0;
 }
 .form-text{
-  padding: 20px;
+  padding-left: 20px;
+  padding-top: 28%;
+  /* padding-bottom: 40%; */
 }
 .form-size{
-  padding: 10%;
-  width: 70%;;
+  padding: 5%;
+  width: 80%;
 }
 .form-label{
   color: white;
@@ -690,4 +692,11 @@ height: 100%;
 
 /* Footer-part-ended */
 
+@media (max-width: 767px) {
+	.CARDBODY {
+    display: flex;
+    align-items: center;
+    
+     flex-direction: column;
 
+	}
